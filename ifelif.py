@@ -1,3 +1,6 @@
+## Version 2.0
+
+
 weith = int(input())
 
 if weith < 60:
