@@ -1,0 +1,30 @@
+#Test Actions
+
+name: Test_actions
+
+on: 
+  push:
+    branches: 
+    - main
+
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
+
+    
+    steps:
+
+     - name: Print Hello World
+       run: echo "Hello World from testing"
+    
+
+    
+
+
+
+
+
+
+
+  
+  my_deploy:
